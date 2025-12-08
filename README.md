@@ -18,8 +18,8 @@ The stack collects metrics using Node Exporter, scrapes them using Prometheus, v
 ---
 
 ## 🏗 Architecture
-
 Node Exporter  →  Prometheus  →  Alertmanager  →  PagerDuty Alerts ↓ Grafana UI
+
 
 ---
 
