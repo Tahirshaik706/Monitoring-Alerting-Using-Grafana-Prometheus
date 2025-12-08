@@ -1,0 +1,11 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: pagerduty
+
+receivers:
+  - name: pagerduty
+    pagerduty_configs:
+      - service_key: "9828be4410da4a02c0c2e818510630b3"       //pagerduty integration key
+        severity: "critical"
